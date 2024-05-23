@@ -8,13 +8,14 @@
             {{ with .Site.Params.social.linkedin }}<li><a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>{{end}}
             {{ with .Site.Params.social.email }}<li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
         </ul>
-        <p>Hugo Story &copy; 2020 <a target="_blank" href="https://github.com/caressofsteel/">CaressOfSteel</a><span class="footerspacer icon fa-diamond"></span>
-            Ported from <a target="_blank" href="https://html5up.net/uploads/demos/story/">Story</a> by HTML5UP<span class="footerspacer icon fa-diamond"></span>
-            Images courtesy of <a target="_blank" href="https://unsplash.com">Unsplash</a></p>
-</div>
+        <p>Frances KV M. Arroyo<span class="footerspacer icon fa-solid fa-bolt"></span>Hannah Nalibsan Caasi<span class="footerspacer icon fa-solid fa-bolt"></span>Lj Llantada<span class="footerspacer icon fa-solid fa-bolt"></span>
+          Shane Ladia<span class="footerspacer icon fa-solid fa-bolt"></span>Yza Paquiao</p>
+        <p style="font-size:0.7em">Hugo Story &copy; 2020 <a target="_blank" href="https://github.com/caressofsteel/">CaressOfSteel</a><span class="footerspacer icon fa-diamond"></span>
+          Ported from <a target="_blank" href="https://html5up.net/uploads/demos/story/">Story</a> by HTML5UP</p>
+    </div>
 </footer>
 
 <!-- FontAwesome JS -->
 {{ range .Site.Params.asset.fontawesome_js -}}
-    <script type="text/javascript" src="{{ . | absURL }}"></script>
+<script type="text/javascript" src="{{ . | absURL }}"></script>
 {{- end }}
